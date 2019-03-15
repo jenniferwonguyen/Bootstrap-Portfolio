@@ -14,3 +14,7 @@ body
     background-repeat: no-repeat;
     min-height: 50px;
 }
+#contact-form
+{
+margin-top: 10em;
+}
