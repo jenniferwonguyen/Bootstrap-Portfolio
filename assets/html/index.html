@@ -5,46 +5,95 @@
   <meta charset="UTF-8">
   <title>About | Jennifer Wong</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- css bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- css link -->
+  <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
   </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><h2>Jennifer Wong</h2></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- navbar -->
+<div id="Header">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Profile</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>           
+        <a href="#" class="navbar-brand"><h3>About Me | Jennifer Wong</h3></a>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="../html/index.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../html/portfolio.html" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="../html/contact.html" class="nav-link">Contact</a></li>
           </ul>
         </div>
-      </nav>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="../Bootstrap-Portfolio/assets/images/porfolio pic.jpg" class="auth-image" alt="Your Name">
-
-      <p>Hi I'm Jennifer. </p>
-
-      <p>I'm currently 28 years old and residing in Eagan, Minnesota. I started the Web Bootcamp in January of 2019 with the intent of build a path towards a career in this field.</p>
-
-      <p>My hopes after completing this course is to start builing a future of my new acquired skills and experience. I am excited for this journey.</p>
-
-    </section>
-
+      </div>
+    </nav>
+  </div>
+  
+  <!-- bg pic -->
+  <div id="bg-img"></div>
+  
+  <!-- about me -->
+  <div id="About">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="AboutData">
+            <div class="card-bg-white">
+              <div class="card-title my-5">
+                <div class="media">
+                  <img src="../images/porfolio pic.jpg" width="250" height="250" class="img-fluid rounded-top mx-5 d-none d-lg-block">
+                  <div class="media-body">
+                    <h3 class="display-4 ml-5">I'm Jennifer</h3>
+                    <p class="text-muted ml-5">Full Stack Developer</p>
+                    <div class="container">
+                      <table class="table table-responsive ml-4"> 
+                        <tr>
+                          <td class="text-muted">Age</td>
+                          <td>:</td>
+                          <td>28 years old</td>
+                        </tr>
+                        <tr>
+                            <td class="text-muted">Email</td>
+                            <td>:</td>
+                            <td>jenniferwonguyen@gmail.com</td>
+                          </tr>
+                          <tr>
+                              <td class="text-muted">Github</td>
+                              <td>:</td>
+                              <td>https://github.com/jenniferwonguyen/Bootstrap-Portfolio.git</td>
+                            </tr>
+                            <tr>
+                                <td class="text-muted">Phone</td>
+                                <td>:</td>
+                                <td>888-888-8888</td>
+                              </tr> 
+                      </table>
+                      <div id="main-container" class="container">
+                          <section class="main-section">
+                            <p>Hi I'm Jennifer. </p>
+                      
+                            <p>I'm currently 28 years old and residing in Eagan, Minnesota. I started the Web Bootcamp in January of 2019 with the intent of build a path towards a career in this field.</p>
+                      
+                            <p>My hopes after completing this course is to start builing a future of my new acquired skills and experience. I am excited for this journey.</p>
+                      
+                          </section>
+                      
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer bg-danger">
+                  <a href="#"><i class="fa fa-facebook fa-2x mx-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <footer>
